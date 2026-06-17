@@ -7,7 +7,7 @@ A complete speech emotion recognition pipeline classifying **7 emotions** (Neutr
 ## Trained Model
 
 The fine-tuned Wav2Vec2 model is available on Hugging Face:  
-👉 [speech-emotion-recognition-wav2vec2](https://huggingface.co/YOUR_USERNAME/speech-emotion-recognition-wav2vec2)
+ [speech-emotion-recognition-wav2vec2](https://huggingface.co/YOUR_USERNAME/speech-emotion-recognition-wav2vec2)
 
 ---
 
