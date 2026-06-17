@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+venv/
+.env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Datasets (too large for git)
+Datasets/
+
+# Model files (too large for git)
+wav2vec2-final/
+wav2vec2-emotion/
+base_model_english.keras
+Audio_Features_Data/
+tfrecords/
+hf_cache/
+hf_train/
+hf_val/
+hf_test/
+
+# Results (optional - uncomment if you want to include)
+# wav2vec2-results/
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# LaTeX build files
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+.gradio/
+mlflow.db
+*.png
