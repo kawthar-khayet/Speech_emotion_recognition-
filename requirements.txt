@@ -1,0 +1,17 @@
+tensorflow[and-cuda]
+torch
+transformers
+datasets
+accelerate
+evaluate
+librosa
+soundfile
+gradio
+mlflow
+scikit-learn
+pandas
+numpy
+matplotlib
+seaborn
+tqdm
+ipykernel
