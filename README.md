@@ -1,21 +1,21 @@
 # Speech Emotion Recognition using Deep Learning
-A complete speech emotion recognition pipeline classifying 7 emotions (Neutral, Happy, Sad, Angry, Fear, Disgust, Surprise) from audio, using CNN-LSTM as a baseline and fine-tuned Wav2Vec2 as the primary model.
+## A complete speech emotion recognition pipeline classifying 7 emotions (Neutral, Happy, Sad, Angry, Fear, Disgust, Surprise) from audio, using CNN-LSTM as a baseline and fine-tuned Wav2Vec2 as the primary model.
 
-Trained Model
+## Trained Model
 The fine-tuned Wav2Vec2 model is available on Hugging Face: speech-emotion-recognition-wav2vec2
 
-Results
+## Results
 Model	Accuracy	F1 Macro
 CNN-LSTM (baseline)	54.00%	0.53
 Wav2Vec2 (fine-tuned)	84.88%	0.86
-Datasets
+## Datasets
 RAVDESS — Ryerson Audio-Visual Database (1,440 files, 24 actors)
 CREMA-D — Crowd-sourced Emotional Multimodal Actors Dataset (7,442 files, 91 actors)
 TESS — Toronto Emotional Speech Set (2,800 files, 2 actresses)
 SAVEE — Surrey Audio-Visual Expressed Emotion (480 files, 4 actors)
 Total: 11,970 files across 7 emotions.
 
-Project Structure
+## Project Structure
 ├── Projet_Audio_1.ipynb          # Main notebook (EDA, CNN-LSTM, results visualization)
 ├── train_wav2vec2.py             # Wav2Vec2 training script
 ├── gradio_app.py                 # Gradio web app for real-time prediction
@@ -29,31 +29,31 @@ Project Structure
 ├── wav2vec2-results/             # Training results (results.pkl)
 ├── demo_files/                   # Sample audio files for demo
 └── requirements.txt
-Setup
+## Setup
 Prerequisites
 Python 3.12+
 NVIDIA GPU with CUDA support
 WSL2 (if on Windows)
-Installation
+## Installation
 git clone https://github.com/YOUR_USERNAME/speech-emotion-recognition.git
 cd speech-emotion-recognition
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
-Datasets
+## Datasets
 Download the datasets and place them in the Datasets/ directory:
 
 RAVDESS
 CREMA-D
 TESS
 SAVEE
-Usage
-Training
+## Usage
+### Training
 CNN-LSTM (baseline):
 
 Run the notebook Projet_Audio_1.ipynb cells 1-25.
 
-Wav2Vec2:
+### Wav2Vec2:
 
 python3 train_wav2vec2.py
 Inference (Gradio App)
