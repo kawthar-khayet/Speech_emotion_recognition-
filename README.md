@@ -1,17 +1,17 @@
-# 🎙️ Speech Emotion Recognition using Deep Learning
+#  Speech Emotion Recognition using Deep Learning
 
 A complete speech emotion recognition pipeline classifying **7 emotions** (Neutral, Happy, Sad, Angry, Fear, Disgust, Surprise) from audio, using CNN-LSTM as a baseline and fine-tuned Wav2Vec2 as the primary model.
 
 ---
 
-## 🤗 Trained Model
+## Trained Model
 
 The fine-tuned Wav2Vec2 model is available on Hugging Face:  
 👉 [speech-emotion-recognition-wav2vec2](https://huggingface.co/YOUR_USERNAME/speech-emotion-recognition-wav2vec2)
 
 ---
 
-## 📊 Results
+##  Results
 
 | Model | Accuracy | F1 Macro |
 |---|---|---|
@@ -20,7 +20,7 @@ The fine-tuned Wav2Vec2 model is available on Hugging Face:
 
 ---
 
-## 🗂️ Datasets
+##  Datasets
 
 | Dataset | Description | Files |
 |---|---|---|
@@ -53,7 +53,7 @@ The fine-tuned Wav2Vec2 model is available on Hugging Face:
 
 ---
 
-## ⚙️ Setup
+##  Setup
 
 ### Prerequisites
 
@@ -82,7 +82,7 @@ Download the datasets and place them in the `Datasets/` directory:
 
 ---
 
-## 🚀 Usage
+##  Usage
 
 ### Training
 
@@ -117,7 +117,7 @@ Open [http://127.0.0.1:5000](http://127.0.0.1:5000) to view experiment metrics a
 
 ---
 
-## 🛠️ Technologies
+##  Technologies
 
 | Library | Role |
 |---|---|
